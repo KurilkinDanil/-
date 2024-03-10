@@ -35,7 +35,7 @@ header{
     font-size: 1.5em;
     color: #359381;
     pointer-events: none;
-    margin-right: 50px;
+    margin-right: 20px;
 }
 
 .nav a{
@@ -43,7 +43,7 @@ header{
     color: #359381;
     padding: 6px 15px;
     border-radius: 20px;
-    margin: 0 10px;
+    margin: 0 5px;
     font-weight: 600;
 }
 
@@ -78,6 +78,27 @@ header{
     color: #fff;
 }
 
+.tours-nav{
+    margin-top:15px;
+}
+
+.tours-nav a{
+    background-color: #359381;
+
+    text-decoration: none;
+    color: #01201a;
+    font-weight: 600;
+
+    padding: 6px 15px;
+    border-radius: 20px;
+    margin: 0 5px;
+}
+
+.tours-nav a:hover{
+    background: #01201a;;
+    color: #fff;
+}
+
 .main span{
     font-weight: 800;
 }
@@ -94,7 +115,11 @@ header{
     padding-top: 15px;
 
     text-align: center;
+}
+
+.main h3 a{
     color: #fff;
+    text-decoration: none;
 }
 
 .main p{
@@ -182,8 +207,8 @@ header{
 .footer .footer-content .footer-section{
     flex: 1;
     padding: 25px;
-
 }
+
 
 .footer .footer-content .links ul a{
     display: block;
@@ -193,7 +218,7 @@ header{
 
 .links ul a{
     text-decoration: none;
-    color: rgb(232, 247, 244);
+    color: #fff;
     transition: all .3s;
 }
 
@@ -202,6 +227,7 @@ header{
     margin-left: 15px;
     transition: all .3s;
 }
+
 
 .text-input{
     padding: .7rem 1rem;
